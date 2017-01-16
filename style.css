@@ -1,0 +1,79 @@
+html, body, .container {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family:Trebuchet MS;
+}
+
+body {
+	/* Background image for the page */
+	background:url('sushi3.jpg') no-repeat center;
+	background-size: cover;
+	color: white;
+}
+
+/* Contains the main content, limits its width, and centers the content */
+.container {
+	margin: auto;
+	max-width: 66%;
+	
+	height: 100%;
+	width: 100%;
+	
+	text-align: center;
+	display: table;
+}
+
+/* Another container for adding a darkened background and making it fill the entire height */
+.container .inner {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	display: table-row;  
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+}
+
+/* Final container for containing the page content, applies padding to the content */
+.container .inner .content {
+	margin: 0 48px;
+	padding: 0 32px 32px 24px;
+}
+
+button {
+	background:transparent;
+  	background-repeat:no-repeat;
+  	border: none;
+  	cursor:pointer;
+  	overflow: hidden;
+   	outline:none;
+	text-align:center;
+	padding:20px 80px;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}
+
+.confirmationbox{
+	background:transparent;
+  	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	padding: 10px 80px;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}
+
+.inputbox{
+	background:transparent;
+  	background-repeat:no-repeat;
+	text-align:center;
+	border: none;
+	padding: 5px 32px;
+	font-family:Trebuchet MS;
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+}
+	
